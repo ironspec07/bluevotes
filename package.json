@@ -16,7 +16,7 @@
     "@web3modal/react": "^2.0.0-rc.3",
     "ethereum-waffle": "^3.4.4",
     "ethers": "^5.7.2",
-    "hardhat": "^2.10.1",
+    "hardhat": "2.10.1",
     "ipfs-http-client": "^57.0.3",
     "moment": "^2.29.4",
     "react": "^17.0.2",
