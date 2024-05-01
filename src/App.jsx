@@ -18,10 +18,10 @@ import {
 } from '@web3modal/ethereum'
 import { useWeb3ModalTheme, Web3Modal } from '@web3modal/react'
 import { configureChains, createClient, WagmiConfig } from 'wagmi'
-import { localhost } from 'wagmi/chains'
+import { localhost, sepolia } from 'wagmi/chains'
 import { setGlobalState } from './store'
 
-const chains = [localhost]
+const chains = [ sepolia ]
 
 // Wagmi client
 const { provider } = configureChains(chains, [

@@ -18,7 +18,7 @@ const Footer = () => {
           <GrLinkedin size={35} />
         </a>
         <a
-          href="https://www.youtube.com/@dappmentors?sub_confirmation=1"
+          href="https://www.youtube.com"
           target="_blank"
           type="button"
           className="rounded-full text-white leading-normal uppercase hover:bg-black
@@ -29,7 +29,7 @@ const Footer = () => {
         </a>
 
         <a
-          href="https://github.com/Daltonic"
+          href="https://github.com/"
           target="_blank"
           type="button"
           className="rounded-full text-white leading-normal uppercase hover:bg-black
@@ -39,7 +39,7 @@ const Footer = () => {
           <AiFillGithub size={35} />
         </a>
         <a
-          href="https://twitter.com/iDaltonic"
+          href="https://twitter.com/"
           target="_blank"
           type="button"
           className="rounded-full text-white leading-normal uppercase hover:bg-black
@@ -53,14 +53,7 @@ const Footer = () => {
         className="flex flex-col justify-center items-center text-center p-4"
         style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}
       >
-        © 2022
-        <a
-          className="flex space-x-2 text-whitehite"
-          href="https://daltonic.github.io/"
-        >
-          <span>With Love ❤️</span>
-          <span className="text-orange-700">Daltonic</span>
-        </a>
+        © 2024
       </div>
     </footer>
   )

@@ -2,15 +2,8 @@ require("@nomiclabs/hardhat-waffle");
 require("dotenv").config();
 
 module.exports = {
-  defaultNetwork: "localhost",
   networks: {
-    hardhat: {
-      chainId: 31337,
-    },
-    localhost: {
-      url: "http://127.0.0.1:8545",
-    },
-    goerli: {
+    sepolia : {
       url: process.env.ENDPOINT_URL,
       accounts: [process.env.DEPLOYER_KEY],
     },
